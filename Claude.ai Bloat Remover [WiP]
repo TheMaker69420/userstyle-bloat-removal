@@ -28,4 +28,32 @@
 		display:
 			none !important
 	}
+	/*Account pop-up*/
+	/*Gift Claude*/
+	a.font-base:nth-child(7) {
+		display:
+			none !important
+	}
+	/*Get Claude for Windows*/
+	a.font-base:nth-child(8) {
+		display:
+			none !important
+	}
+	/*Upgrade plan*/
+	a.font-base:nth-child(6) {
+		display:
+			none !important
+	}
+	
+	/*Settings*/
+	/*Billing options*/
+	ul.flex:nth-child(1) > li:nth-child(4) {
+		display:
+			none !important
+	}
+	/*Claude Code*/
+	ul.flex:nth-child(1) > li:nth-child(7) {
+		display:
+			none !important
+	}
 }
