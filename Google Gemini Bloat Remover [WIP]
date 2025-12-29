@@ -1,0 +1,37 @@
+/*Chat page*/
+
+/*Upgrade upsell remove*/
+div.buttons-container:nth-child(1) {
+	display:
+		none !important
+}
+
+/*From hamburger menu*/
+upsell-button.ng-tns-c3801139974-62 {
+	display:
+		none !important
+}
+
+/*Ditto, minimized*/
+upsell-button,
+[class*="upsell-button"] {
+    display: none !important;
+}
+
+/*"Get more from Gemini" in model picker*/
+.upgrade-container {
+	display:
+		none !important
+}
+
+/*"You've reached your limit for thinking models"*/
+.thinking-banner {
+	display:
+		none !important
+}
+
+/*Microphone in search bar*/
+.input-buttons-wrapper-bottom {
+	display:
+		none !important
+}
