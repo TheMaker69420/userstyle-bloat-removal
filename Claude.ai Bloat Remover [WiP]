@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name           claude.ai/new
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://claude.ai") {
+    /*Homepage*/
+	/*Subscription status under greeting*/
+	.ml-0\.5 {
+		display:
+			none !important
+	}
+	/*Model changer*/
+	#radix-_r_4r_ {
+		display:
+			none !important
+	}
+	/*Share button on chats*/
+	.right-3 {
+		display:
+			none !important
+	}
+	/*Sidebar*/
+	div.relative:nth-child(4) {
+		display:
+			none !important
+	}
+}
