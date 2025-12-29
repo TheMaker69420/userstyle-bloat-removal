@@ -12,6 +12,14 @@ Bloat can be, but is not limited to:
 - Account creation
 - Sections of sites that either don't work or I do not need (Google, etc.)
   - This definition of bloat is very biased. Keep that in mind.
+ 
+# Current websites
+- Proton Mail
+- Google Gemini
+- *Claude.ai
+- *Startpage search
+- *Wikipedia
+* [WiP]
 
 # How do I use these?
 Prerequisites: The Stylus extension, and a browser that can support it
