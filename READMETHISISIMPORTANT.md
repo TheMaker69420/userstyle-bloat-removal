@@ -1,0 +1,31 @@
+# Disclaimer
+I am not good at coding, very much beginner. Shit will not work. Send issues if stuff does not work.
+
+# What even is this?
+This is my personal list of websites that I remove various "bloat" from. "Bloat" can mean a variety of things in my definition.
+
+# What exactly is "bloat?" What can it be?
+Bloat can be, but is not limited to:
+- AI features I don't use or aren't needed for a website to work (Startpage Vanish, Lumo AI, etc)
+- Upsell 
+- Donation reminders (Wikipedia)
+- Account creation
+- Sections of sites that either don't work or I do not need (Google, etc.)
+  - This definition of bloat is very biased. Keep that in mind.
+
+# How do I use these?
+Prerequisites: The Stylus extension, and a browser that can support it
+
+1: Click on the theme you want to use (usually [website name] Bloat Remover)
+
+2: Copy everything inside the codebox
+
+3: Create a new theme for Stylus
+
+4: Change the domain settings to "Domains on the URL" or "URLS starting with" and then the URL for the websites
+
+(i.e. Gemini Bloat Remover [WIP] requires domains for URLS that start with "gemini.google.com" to work properly) !!!IMPORTANT
+
+5: ?????
+
+6: You did it!
