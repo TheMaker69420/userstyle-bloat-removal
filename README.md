@@ -20,6 +20,7 @@ Bloat can be, but is not limited to:
 - *Startpage search
 - *Wikipedia
 - *Roblox
+- *pronouns.cc (Font)*
 
 \* [WiP]
 
