@@ -6,7 +6,7 @@
 @author         TheMaker42/TheMaker69420
 ==/UserStyle== */
 
-@-moz-document domain("https://www.startpage.com/do/dsearch") {
+@-moz-document url-prefix("https://www.startpage.com/") {
     /* Insert code here... */
 }
 .ai-chat-sidebar-banner {
