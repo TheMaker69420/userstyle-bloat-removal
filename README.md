@@ -24,7 +24,7 @@ Bloat can be, but is not limited to:
 
 \* [WiP]
 
-# How do I use these?
+# How do I use these? (PC browser)
 Prerequisites: The Stylus extension, and a browser that can support it
 
 1: Click on the theme you want to use (usually [website name] Bloat Remover)
@@ -42,3 +42,6 @@ Prerequisites: The Stylus extension, and a browser that can support it
 6: ?????
 
 7: You did it!
+
+# How do I use these? (Mobile browser)
+good luck
