@@ -7,7 +7,8 @@
 ==/UserStyle== */
 
 @-moz-document domain("gemini.google.com") {
-  	/*Home Menu color*/
+  	/*Home Menu*/
+	/*Home menu color*/
 	:root :where(.theme-host):where(.zero-state-theme) {
 	--bard-color-synthetic--chat-window-surface: #004e5d;
 }
@@ -17,7 +18,7 @@
 }
 	/*Upgrade buttons (void if using comparison Bloat Remover theme)*/
 	:where(.theme-host):where(.dark-theme) button[mat-flat-button].gds-upsell-button {
-  --mat-button-filled-container-color: #00272e;
+  --mat-button-filled-container-color: #002830;
 	}
 
 	/*Home menu text (Hi [user])*/
@@ -30,4 +31,44 @@
 	.bard-text.enable-aurora[_ngcontent-ng-c1291545120] {
   color: #55d3f3;
 	}
+	/*Input bar and suggestion buttons (void if using comparison Bloat Remover theme)*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-bright: #002830;
+	--gem-sys-color--surface-container-low: #002830;
+	--gem-sys-color--surface-container-lowest: #002830;
+	}
+	/*Model Picker*/
+	:root :where(.theme-host):where(.zero-state-theme) {
+	--bard-color-synthetic--mat-card-background: #002830;
+}
+}
+@-moz-document url-prefix("https://gemini.google.com/u/1/app/") {
+	/*Chat pages*/
+	/*Chat page color*/
+	/*Background*/
+	:root :where(.theme-host) {
+  --bard-color-synthetic--chat-window-surface: #004e5d;
+	}
+	/*Chat bubbles*/
+	/*User*/
+.user-query-bubble-with-background[_ngcontent-ng-c3216959453]:not(.edit-mode) {
+	background: #002830;
+	}
+	/*AI*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--on-surface: #fff;
+	--gem-sys-color--surface: #002830;
+	}
+	/*Code blocks*/
+	.markdown[_ngcontent-ng-c1532857962] code {
+	background-color: #002830;
+	}
+	/*Input bar*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-bright: #002830;
+	}
+}
+@-moz-document domain("gemini.google.com") {
+	/*Branding (Sitewide)*/
+	/*WIP/*
 }
