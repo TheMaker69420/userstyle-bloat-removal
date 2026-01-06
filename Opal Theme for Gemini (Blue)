@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name           Opal Theme for Gemini (Blue)
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Based on a cool blue theme I got on one of my Opal gems. Probably not doing any other colors, even though it would be pretty easy to.
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("gemini.google.com") {
+  	/*Home Menu color*/
+	:root :where(.theme-host):where(.zero-state-theme) {
+	--bard-color-synthetic--chat-window-surface: #004e5d;
+}
+	/*Sidebar*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-container: #002830;
+}
+	/*Upgrade buttons (void if using comparison Bloat Remover theme)*/
+	:where(.theme-host):where(.dark-theme) button[mat-flat-button].gds-upsell-button {
+  --mat-button-filled-container-color: #00272e;
+	}
+
+	/*Home menu text (Hi [user])*/
+	h1[_ngcontent-ng-c2751595541] {
+  color: #55d3f3;
+	}
+	bard-sidenav-content[_ngcontent-ng-c1217087270] {
+  color: #55d3f3;
+	}
+	.bard-text.enable-aurora[_ngcontent-ng-c1291545120] {
+  color: #55d3f3;
+	}
+}
