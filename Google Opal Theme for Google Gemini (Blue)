@@ -89,3 +89,97 @@
 	background: #002830;
 	}
 }
+@-moz-document url-prefix("https://gemini.google.com/u/0/app/") {
+	/*Chat pages*/
+	/*Chat page color*/
+	/*Background*/
+	:root :where(.theme-host) {
+  --bard-color-synthetic--chat-window-surface: #004e5d;
+	}
+	/*Chat bubbles*/
+	/*User*/
+.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
+  background: #002830;
+	}
+	/*AI*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--on-surface: #fff;
+	--gem-sys-color--surface: #00283000;
+	}
+	/*Code blocks*/
+	.markdown[_ngcontent-ng-c1532857962] code {
+	background-color: #002830;
+	}
+	/*Input bar*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-bright: #002830;
+	}
+}
+@-moz-document url-prefix("https://gemini.google.com/u/0/gem") {
+	/*Gem homepage background*/
+	:where(.theme-host):where(.dark-theme) {
+  --gem-sys-color--surface: #004e5d;
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-bright: #002830;
+}
+	/*Text*/
+:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--on-surface: #55d3f3;
+}
+		}
+	bard-sidenav-content[_ngcontent-ng-c4126401492] {
+	color: #55d3f3;
+			}
+	/*Chat colors*/
+	/*User*/
+	.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
+	background: #002830;
+	}
+}
+@-moz-document url-prefix("https://gemini.google.com/app/") {
+	/*Chat pages*/
+	/*Chat page color*/
+	/*Background*/
+	:root :where(.theme-host) {
+  --bard-color-synthetic--chat-window-surface: #004e5d;
+	}
+	/*Chat bubbles*/
+	/*User*/
+.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
+  background: #002830;
+	}
+	/*AI*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--on-surface: #fff;
+	--gem-sys-color--surface: #00283000;
+	}
+	/*Code blocks*/
+	.markdown[_ngcontent-ng-c1532857962] code {
+	background-color: #002830;
+	}
+	/*Input bar*/
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-bright: #002830;
+	}
+}
+@-moz-document url-prefix("https://gemini.google.com/gem") {
+	/*Gem homepage background*/
+	:where(.theme-host):where(.dark-theme) {
+  --gem-sys-color--surface: #004e5d;
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-bright: #002830;
+}
+	/*Text*/
+:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--on-surface: #55d3f3;
+}
+		}
+	bard-sidenav-content[_ngcontent-ng-c4126401492] {
+	color: #55d3f3;
+			}
+	/*Chat colors*/
+	/*User*/
+	.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
+	background: #002830;
+	}
+}
