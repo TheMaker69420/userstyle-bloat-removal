@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           Opal Theme for Gemini (Blue)
-@namespace      github.com/openstyles/stylus
+@namespace      https://github.com/TheMaker69420/userstyle-bloat-removal
 @version        1.0.0
 @description    Based on a cool blue theme I got on one of my Opal gems. Probably not doing any other colors, even though it would be pretty easy to.
-@author         Me
+@author         TheMaker42/TheMaker69420
 ==/UserStyle== */
 
 @-moz-document domain("gemini.google.com") {
@@ -51,13 +51,13 @@
 	}
 	/*Chat bubbles*/
 	/*User*/
-.user-query-bubble-with-background[_ngcontent-ng-c3216959453]:not(.edit-mode) {
-	background: #002830;
+.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
+  background: #002830;
 	}
 	/*AI*/
 	:where(.theme-host):where(.dark-theme) {
 	--gem-sys-color--on-surface: #fff;
-	--gem-sys-color--surface: #002830;
+	--gem-sys-color--surface: #00283000;
 	}
 	/*Code blocks*/
 	.markdown[_ngcontent-ng-c1532857962] code {
@@ -68,7 +68,24 @@
 	--gem-sys-color--surface-bright: #002830;
 	}
 }
-@-moz-document domain("gemini.google.com") {
-	/*Branding (Sitewide)*/
-	/*WIP/*
+@-moz-document url-prefix("https://gemini.google.com/u/1/gem") {
+	/*Gem homepage background*/
+	:where(.theme-host):where(.dark-theme) {
+  --gem-sys-color--surface: #004e5d;
+	:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--surface-bright: #002830;
+}
+	/*Text*/
+:where(.theme-host):where(.dark-theme) {
+	--gem-sys-color--on-surface: #55d3f3;
+}
+		}
+	bard-sidenav-content[_ngcontent-ng-c4126401492] {
+	color: #55d3f3;
+			}
+	/*Chat colors*/
+	/*User*/
+	.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
+	background: #002830;
+	}
 }
