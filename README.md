@@ -31,11 +31,9 @@ Prerequisites: The Stylus extension, and a browser that can support it
 
 2: Copy everything inside the codebox
 
-3: Create a new theme for Stylus
+3: Open a new Userstyle for your website
 
-4: Change the domain settings to "Domains on the URL" or "URLS starting with" and then the URL for the websites
-
-(i.e. Gemini Bloat Remover requires URLS with domains that start with "gemini.google.com" to work properly) !!!IMPORTANT
+4: Paste the code into the Stylus codebox
 
 5: Save the userstyle
 
