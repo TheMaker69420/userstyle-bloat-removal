@@ -1,0 +1,38 @@
+// ==UserScript==
+// @name         Indent Your Paragraphs!
+// @namespace    https://github.com/TheMaker69420/userstyle-bloat-removal
+// @version      2026-01-14
+// @description  Finally indent on pronouns.cc textboxes (bio, etc) withhout switching to the next element. English teachers rejoice.
+// @author       TheMaker42/TheMaker69420 DISCLAIMER: CHATGPT HELPED WRITE THIS CODE.
+// @match        https://pronouns.cc/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=pronouns.cc
+// @grant        none
+// ==/UserScript==
+
+(function () {
+    'use strict';
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Tab') return;
+
+        const el = document.activeElement;
+
+        // textarea ONLY
+        if (el && el.tagName === 'TEXTAREA') {
+            e.preventDefault();
+
+            const start = el.selectionStart;
+            const end = el.selectionEnd;
+
+            const indent = '    '; // 4 spaces
+
+            el.value =
+                el.value.substring(0, start) +
+                indent +
+                el.value.substring(end);
+
+            // Move cursor after the indent
+            el.selectionStart = el.selectionEnd = start + indent.length;
+        }
+    });
+})();
