@@ -16,15 +16,13 @@ Bloat can be, but is not limited to:
 # Current websites
 - Proton Mail (split into 2 parts)
 - Google Gemini
-- *Claude.ai
-- *Startpage search
-- *Wikipedia
-- *Roblox
-- *pronouns.cc (Font)*
+- Startpage search
+- Wikipedia
+- *pronouns.cc (Font and TM (TamperMonkey) script)*
 
 \* [WiP]
 
-# How do I use these? (PC browser)
+# How do I use these? (PC browser, CSS)
 Prerequisites: The Stylus extension, and a browser that can support it
 
 1: Click on the theme you want to use (usually [website name] Bloat Remover)
@@ -41,5 +39,5 @@ Prerequisites: The Stylus extension, and a browser that can support it
 
 7: You did it!
 
-# How do I use these? (Mobile browser)
+# How do I use these? (Mobile browser, CSS and TM)
 good luck
