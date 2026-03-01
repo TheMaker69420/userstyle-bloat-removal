@@ -9,6 +9,22 @@
 @-moz-document domain("chub.ai") {
     /* Blurring */
 	.eCEqAJ {
-	filter: blur(12px) 
+	image-resolution: 1dpi;
+    image-rendering: pixelated;
+    filter: blur(12px);
+    -webkit-filter: blur(12px);
+    overflow: hidden;
+    padding: 26px;
+    max-width: 100%;
+		
+	}
 }
-}
+	:where(.css-btwuss).ant-image .ant-image-img {
+	image-resolution: 1dpi;
+    image-rendering: pixelated;
+    filter: blur(12px);
+    -webkit-filter: blur(12px);
+    overflow: hidden;
+    padding: 26px;
+    max-width: 100%;
+	}
