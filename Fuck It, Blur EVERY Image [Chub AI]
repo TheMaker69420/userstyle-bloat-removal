@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Fuck It, Blur EVERY Image
+@namespace      https://github.com/TheMaker69420/userstyle-bloat-removal
+@version        1.0.0
+@description    The most Christian-Friendly theme on Chub.
+@author         TheMaker42/69420
+==/UserStyle== */
+
+@-moz-document domain("chub.ai") {
+    /* Blurring */
+	.eCEqAJ {
+	filter: blur(12px) 
+}
+}
