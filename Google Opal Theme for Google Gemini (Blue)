@@ -22,9 +22,17 @@
 	}
 
 	/*Home menu text (Hi [user])*/
-	h1[_ngcontent-ng-c2751595541] {
-  color: #55d3f3;
-	}
+	/*Hi [user],*/
+	bard-sidenav-content[_ngcontent-ng-c2928416002] {
+	color: #55d3f3;
+}
+	/*Where should we start?*/
+	h1[_ngcontent-ng-c2583216034] {
+	color: #55d3f3;
+	text-wrap: wrap;
+	text-wrap: pretty;
+}
+	/*Logo*/
 	bard-sidenav-content[_ngcontent-ng-c1217087270] {
   color: #55d3f3;
 	}
@@ -51,10 +59,8 @@
 	}
 	/*Chat bubbles*/
 	/*User*/
-.user-query-bubble-with-background[_ngcontent-ng-c1622755516]:not(.edit-mode) {
-	background: #002830;
-	border-radius: 24px var(--gem-sys-shape--corner-extra-small) 24px 24px;
-	max-width: calc(476px - var(--gem-sys-spacing--m)*2);
+	.user-query-bubble-with-background[_ngcontent-ng-c1896800842]:not(.edit-mode) {
+	background: #002830 !important;
 }
 	/*AI*/
 	:where(.theme-host):where(.dark-theme) {
@@ -116,8 +122,8 @@
 	}
 	/*Chat bubbles*/
 	/*User*/
-	.user-query-bubble-with-background[_ngcontent-ng-c2039791412]:not(.edit-mode) {
-	background: #002830;
+	.user-query-bubble-with-background[_ngcontent-ng-c1896800842]:not(.edit-mode) {
+	background: #002830 !important;
 }
 	/*AI*/
 	:where(.theme-host):where(.dark-theme) {
@@ -179,8 +185,8 @@
 	}
 	/*Chat bubbles*/
 	/*User*/
-	.user-query-bubble-with-background[_ngcontent-ng-c3456391102]:not(.edit-mode) {
-	background: #002830;
+	.user-query-bubble-with-background[_ngcontent-ng-c1896800842]:not(.edit-mode) {
+	background: #002830 !important;
 }
 	/*AI*/
 	:where(.theme-host):where(.dark-theme) {
