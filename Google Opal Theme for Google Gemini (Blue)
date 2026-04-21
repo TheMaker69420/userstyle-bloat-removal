@@ -108,7 +108,7 @@
 	}
 }
 @-moz-document url-prefix("https://gemini.google.com/u/0/app/") {
-	/*Chat pages*/
+	/*Chat pages (u/0/)*/
 	/*Chat page color*/
 	/*Background*/
 	:root :where(.theme-host) {
@@ -138,7 +138,7 @@
 	}
 }
 @-moz-document url-prefix("https://gemini.google.com/u/0/gem") {
-	/*Gem homepage background*/
+	/*Gem homepage background (u/0/)*/
 	:where(.theme-host):where(.dark-theme) {
   --gem-sys-color--surface: #004e5d;
 	:where(.theme-host):where(.dark-theme) {
@@ -171,7 +171,7 @@
 	}
 }
 @-moz-document url-prefix("https://gemini.google.com/app/") {
-	/*Chat pages*/
+	/*Chat pages (/app)*/
 	/*Chat page color*/
 	/*Background*/
 	:root :where(.theme-host) {
@@ -179,7 +179,7 @@
 	}
 	/*Chat bubbles*/
 	/*User*/
-	.user-query-bubble-with-background[_ngcontent-ng-c1622755516]:not(.edit-mode) {
+	.user-query-bubble-with-background[_ngcontent-ng-c3456391102]:not(.edit-mode) {
 	background: #002830;
 }
 	/*AI*/
@@ -189,7 +189,7 @@
 	}
 	/*Code blocks*/
 	.markdown[_ngcontent-ng-c1532857962] code {
-	background-color: #002830;
+	background: #002830;
 	}
 	/*Input bar*/
 	:where(.theme-host):where(.dark-theme) {
@@ -201,7 +201,7 @@
 	}
 }
 @-moz-document url-prefix("https://gemini.google.com/gem") {
-	/*Gem homepage background*/
+	/*Gem homepage background (/gem)*/
 	:where(.theme-host):where(.dark-theme) {
   --gem-sys-color--surface: #004e5d;
 	:where(.theme-host):where(.dark-theme) {
@@ -232,4 +232,22 @@
 	:where(.theme-host):where(.dark-theme) {
   --gem-sys-color--outline-variant: #002830;
 	}
+}
+@-moz-document url-prefix("https://gemini.google.com/notebook") {
+	/*Notebook Sources button*/
+.variant-stacked[_nghost-ng-c2673682106] mat-base-chip[_ngcontent-ng-c2673682106] {
+	background-color: #002830 !important;
+}
+}
+@-moz-document url-prefix("https://gemini.google.com/u/1/notebook") {
+	/*Notebook Sources button*/
+.variant-stacked[_nghost-ng-c2673682106] mat-base-chip[_ngcontent-ng-c2673682106] {
+	background-color: #002830 !important;
+}
+}
+@-moz-document url-prefix("https://gemini.google.com/u/0/notebook") {
+	/*Notebook Sources button*/
+.variant-stacked[_nghost-ng-c2673682106] mat-base-chip[_ngcontent-ng-c2673682106] {
+	background-color: #002830 !important;
+}
 }
