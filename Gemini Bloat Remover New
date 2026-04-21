@@ -1,0 +1,57 @@
+/* ==UserStyle==
+@name           Gemini Bloat Remover MakeOver Edition
+@namespace      https://github.com/TheMaker69420/userstyle-bloat-removal
+@version        1.0.0
+@description    A complete redo of my original theme, re-adding Dark Reader support.
+@author         TheMaker42/TheMaker69420
+==/UserStyle== */
+
+@-moz-document domain("gemini.google.com") {
+    /*Create image" chips under prompt*/
+	intent-chips-block.ng-star-inserted {
+		display:
+			none !important
+	}
+	
+	/*Google AI Plus next to temp. chat*/
+	.adv-upsell {
+		display:
+			none !important
+	}
+	/*In hamburger menu, minimized window*/
+	upsell-button.ng-tns-c3100803046-83 {
+		display:
+			none !important
+	}
+	/*Opals*/
+	.all-opals {
+		display:
+			none !important
+	}
+	/*Premade Gems*/
+	.premade-gems {
+		display:
+			none !important
+	}
+	
+	/*Microphone next to search*/
+	.speech_dictation_mic_button {
+		display:
+			none !important
+	}
+	/*Seperator*/
+	.input-buttons-wrapper-bottom {
+		display:
+			none !important
+	}
+
+	/*Homepage Better Color*/
+	:root .dark-theme {
+	--bard-color-surface-dim-tmp: #191919;
+}
+	/*Dark Reader Support*/
+	/*how can i make this about dark reader 😈*/
+	:root .dark-theme {
+	--darkreader-bg--bard-color-surface-dim-tmp: #191919;
+}
+}
